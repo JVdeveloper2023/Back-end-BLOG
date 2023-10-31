@@ -1,7 +1,7 @@
 # Back-end-BLOG
 API Rest de un BLOG  con NodeJs, Express, MongoDB Atlas y almacenamiento en Cloudinary (Desplegado)
 
-# PETICIONES
+# Peticiones
 
 - Crear Articulo con Imagen por defecto: 
 POST   https://api-blog-kgga.onrender.com/api/create-article
