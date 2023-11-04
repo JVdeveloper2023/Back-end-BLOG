@@ -68,7 +68,7 @@ const listArticles = async (req, res) => {
 
     // Si la solicitud incluye un parámetro 'recents', limita la consulta a los 2 artículos más recientes
     if (req.params.recents) {
-      query = query.limit(2);
+      query = query.limit(3);
     }
 
     // Ejecuta la consulta
